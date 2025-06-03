@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 0
+  m_GuidHigh: 0
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5164474069136004776
+      m_GuidHigh: 3202965436429147025
+    m_SerializedTextureGuid:
+      m_GuidLow: 5752470938026475545
+      m_GuidHigh: 5286546466800624715
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Mercedes
+    m_Texture: {fileID: 2800000, guid: 19d38019e1d74fd44b643f9200965d49, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5598036602359619779
+      m_GuidHigh: 2780652850434526143
+    m_SerializedTextureGuid:
+      m_GuidLow: 15074854930386481372
+      m_GuidHigh: 5653759636049909963
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: chevrolet
+    m_Texture: {fileID: 2800000, guid: 6e3b70dca4b0d134cb5832206f30764e, type: 3}
