@@ -3,12 +3,14 @@ using UnityEngine;
 public class EngineToggle : MonoBehaviour
 {
     public AudioSource engineAudio;
-    private bool isOn = false;
+    private bool isEngineOn = false;
 
     public void ToggleEngine()
     {
-        isOn = !isOn;
-        if (isOn)
+        if (engineAudio == null) return;
+
+        isEngineOn = !isEngineOn;
+        if (isEngineOn)
             engineAudio.Play();
         else
             engineAudio.Stop();
