@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class Main2 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Start is called before the first frame updat
     public void Marker()
     {
         SceneManager.LoadScene(1);
@@ -13,5 +13,9 @@ public class MainMenu : MonoBehaviour
     public void Markeress()
     {
         SceneManager.LoadScene(2);
+    }
+    public void Mainme()
+    {
+        SceneManager.LoadScene(0);
     }
 }

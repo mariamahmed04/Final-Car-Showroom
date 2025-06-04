@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class Main : MonoBehaviour
 {
-    // Start is called before the first frame update
     public void Marker()
     {
         SceneManager.LoadScene(1);
@@ -13,5 +12,9 @@ public class MainMenu : MonoBehaviour
     public void Markeress()
     {
         SceneManager.LoadScene(2);
+    }
+    public void Mainme()
+    {
+        SceneManager.LoadScene(0);
     }
 }
